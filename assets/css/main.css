@@ -3854,12 +3854,15 @@ input, select, textarea {
 
 			.wrapper.spotlight .inner {
 				display: block;
+    			
 			}
 
 			.wrapper.spotlight .image {
-				margin: 0 0 1em 0 !important;
+				margin: 0 1rem 2em 5rem !important;
 				max-width: 85%;
 				width: 12em;
+				
+				
 			}
 
 		}
