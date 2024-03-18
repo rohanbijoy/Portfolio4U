@@ -96,7 +96,9 @@
 											<p>A minimalist portfolio template focused on showcasing your work in a clean and concise manner, allowing your projects to shine without distractions.</p>
 											<a href="https://65f3f34e1424ac21586fdb0b--strong-axolotl-3a4444.netlify.app/" class="special">Live Demo</a>
 										</article>
+							
 									</section>
+									
 									
 								</div>
 							</section>
@@ -115,15 +117,20 @@
 								<div class="fields">
 									<div class="field">
 										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
+										<input type="text" name="name" id="name" required />
 									</div>
 									<div class="field">
 										<label for="email">Email</label>
-										<input type="email" name="email" id="email" />
+										<input type="email" name="email" id="email" required />
+									</div>
+									<div class="field">
+										<label for="phone">Phone</label>
+										<input type="tel" name="phone" id="phone" pattern="[0-9]{10}" required />
+										
 									</div>
 									<div class="field">
 										<label for="dropdown">Dropdown</label>
-										<select name="dropdown" id="dropdown">
+										<select name="dropdown" id="dropdown" required>
 											<option value="Paradigm">PARADIGM</option>
 											<option value="NovaSphere">NOVASPHERE</option>
 											<option value="ModernWave">MODERNWAVE</option>
@@ -132,7 +139,7 @@
 									</div>
 									<div class="field">
 										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="4"></textarea>
+										<textarea name="message" id="message" rows="4" required></textarea>
 									</div>
 								</div>
 								<ul class="actions">
